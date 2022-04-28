@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Setup
+# Todo List
 
-> In this project we setup a webpack boilerplate from scratch. Webpack is popular and one of the best module bundler. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules.
+> In this project, I created a Todo list. On this list you can add tasks and remove them whem completed.
 
 
 ## Built With
