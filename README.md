@@ -1,16 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Setup
+# Todo List
 
-> In this project we setup a webpack boilerplate from scratch. Webpack is popular and one of the best module bundler. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules.
-
+> In this project, I created a todo list. In this todo list you can add your daily tasks at the start of your day and remove them when those tasks are completed.
 
 ## Built With
 
 - HTML5, CSS3, JavaScript
 - Webpack
 - VS code
-
 
 ## Getting Started
 
@@ -28,10 +26,9 @@ Clone the repository using the link provided below
 
 ### Install
 
-``` 
-git clone git@github.com:mavericks-db/webpack-demo.git 
 ```
-
+git clone git@github.com:mavericks-db/webpack-demo.git
+```
 
 ### Usage
 
@@ -39,13 +36,14 @@ Kindly modify the files as needed
 
 ### Deployment
 
-To run webpack, run the following command 
+To run webpack, run the following command
 
 ```
 npm run build
 ```
 
 To start webpack server, run the following command
+
 ```
 npm start
 ```
@@ -57,7 +55,6 @@ npm start
 - [GitHub](https://github.com/HammadSiddique)
 - [Twitter](https://twitter.com/hs_devv)
 - [LinkedIn](https://www.linkedin.com/in/hammad-siddique-6a5469231/)
-
 
 ## 🤝 Contributing
 
