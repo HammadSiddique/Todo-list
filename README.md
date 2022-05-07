@@ -27,7 +27,7 @@ Clone the repository using the link provided below
 ### Install
 
 ```
-git clone git@github.com:mavericks-db/webpack-demo.git
+git clone https://github.com/HammadSiddique/Todo-list
 ```
 
 ### Usage
