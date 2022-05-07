@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #e9ecef;
+}
+
 .heading {
   font-weight: 700;
   text-align: center;
@@ -14,11 +18,12 @@
 }
 
 .list-section {
-  border: 2px solid rgb(223, 223, 223);
+  border: 2px solid white;
   width: 50%;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 0 5px 1px rgba(80, 80, 80, 0.4);
+  background-color: white;
 }
 
 .list-container {
@@ -55,7 +60,7 @@
   font-style: italic;
   border: none;
   outline: none;
-  width: 90%;
+  width: 95%;
 }
 
 .submit-task {
@@ -65,25 +70,69 @@
   cursor: pointer;
 }
 
-.todo-item {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgb(207, 207, 207);
-  padding: 1rem 0.5rem;
+.todo-list {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-weight: 300;
 }
 
-.items {
+.todo-list li {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.todo-list li div {
+  display: flex;
   align-items: center;
 }
 
-.item-menu {
-  background: none;
-  padding: 0;
+.todo-input {
   border: none;
-  font-size: 1.2em;
-  padding-right: 0.3rem;
+  outline: none;
+  font-size: 1em;
+  font-family: inherit;
+  align-self: flex-start;
+  width: 29rem;
+}
+
+.fa-check {
+  display: none;
+  color: #38b000;
+}
+
+.todo-task.active .fa-check {
+  display: block;
+}
+
+.todo-task.active .fa-square {
+  display: none;
+}
+
+.todo-task.active .todo-input {
+  text-decoration: line-through;
+}
+
+button {
+  min-width: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+i {
+  font-size: 17px;
+  color: #a5a58d;
 }
 
 .completed {
