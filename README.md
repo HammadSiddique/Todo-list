@@ -10,6 +10,10 @@
 - Webpack
 - VS code
 
+## Live Demo
+
+To check out a live-demo of the webiste visit [here](https://hammadsiddique.github.io/Todo-list/dist/index.html).
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
