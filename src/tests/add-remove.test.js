@@ -24,6 +24,7 @@ document.body.innerHTML = `<section class="d-flex cols todo-list">
 
 describe('Testing Add function', () => {
   window.localStorage = Storage.prototype;
+  // create add test here
   test('Test: Add task', () => {
     const todoList = new Tasks();
     todoList.add('Test');
