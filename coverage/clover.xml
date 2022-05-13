@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652448340054" clover="3.2.0">
-  <project timestamp="1652448340055" name="All files">
+<coverage generated="1652448591739" clover="3.2.0">
+  <project timestamp="1652448591740" name="All files">
     <metrics statements="55" coveredstatements="40" conditionals="10" coveredconditionals="3" methods="17" coveredmethods="10" elements="82" coveredelements="53" complexity="0" loc="55" ncloc="55" packages="1" files="2" classes="2"/>
-    <file name="taskStatus.js" path="/home/saraza/Desktop/Microverse/Todo-list/src/modules/taskStatus.js">
+    <file name="taskStatus.js" path="C:\All stuff\Microverse\Module 2\Todo-list\src\modules\taskStatus.js">
       <metrics statements="15" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="6" type="stmt"/>
@@ -20,7 +20,7 @@
       <line num="20" count="0" type="stmt"/>
       <line num="21" count="0" type="stmt"/>
     </file>
-    <file name="tasks.js" path="/home/saraza/Desktop/Microverse/Todo-list/src/modules/tasks.js">
+    <file name="tasks.js" path="C:\All stuff\Microverse\Module 2\Todo-list\src\modules\tasks.js">
       <metrics statements="40" coveredstatements="34" conditionals="10" coveredconditionals="3" methods="11" coveredmethods="8"/>
       <line num="3" count="1" type="stmt"/>
       <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>

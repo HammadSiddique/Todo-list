@@ -45,12 +45,13 @@ describe('Testing Add function', () => {
     expect(todoList.tasksArray[0].description).toBe('Test');
     expect(todoList.tasksArray[1].description).toMatch('Test for edit');
   });
-
+  // create update status test here
   test('Test: Update task status', () => {
     const todoList = new Tasks();
     todoList.update('Test for edit', 1);
     expect(todoList.tasksArray[0].isCompleted).toBe(false);
   });
+  // create clear-completed test here
   test('Test: clear completed', () => {
     const todoList = new Tasks();
     todoList.tasksArray[0].index = 0;

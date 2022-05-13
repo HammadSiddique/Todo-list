@@ -1,5 +1,5 @@
 TN:
-SF:src/modules/taskStatus.js
+SF:src\modules\taskStatus.js
 FN:2,(anonymous_0)
 FN:5,(anonymous_1)
 FN:6,(anonymous_2)
@@ -35,7 +35,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/modules/tasks.js
+SF:src\modules\tasks.js
 FN:6,(anonymous_0)
 FN:10,(anonymous_1)
 FN:13,(anonymous_2)
