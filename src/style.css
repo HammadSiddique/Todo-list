@@ -7,42 +7,48 @@
 }
 
 body {
-  background-color: #e9ecef;
+  background-color: #8989bb;
+  background-image: linear-gradient(315deg, #8989bb 0%, #a5a4cb 74%);
+  height: 100vh;
 }
 
 .heading {
   font-weight: 700;
   text-align: center;
-  margin: 5% 0;
+  margin: 3% 0;
   font-size: 2.5em;
+  color: rgb(235, 245, 255);
 }
 
 .list-section {
-  border: 2px solid white;
   width: 50%;
-  margin: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 1px rgba(80, 80, 80, 0.4);
-  background-color: white;
+  margin: 0 auto;
+  background-color: #ababda;
+  border-radius: 24px;
+  padding-bottom: 0.01rem;
+  box-shadow:
+    rgb(50 50 93 / 25%) 0 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0 3px 7px -3px;
 }
 
 .list-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
-  border-bottom: 1px solid rgb(180, 180, 180);
+  padding-top: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .list-heading {
-  font-size: 1.35em;
+  font-size: 1.15em;
   font-weight: 400;
-  font-style: italic;
+  opacity: 0.6;
 }
 
 .refresh {
   font-size: 1.1em;
-  color: rgb(104, 104, 104);
+  color: rgb(53, 123, 202);
   border: none;
   background: none;
   cursor: pointer;
@@ -51,16 +57,22 @@ body {
 .add-task {
   display: flex;
   justify-content: space-between;
-  padding: 0.75rem 0.5rem;
-  border-bottom: 1px solid rgb(207, 207, 207);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+
+  /* border-bottom: 1px solid rgb(231, 231, 231); */
+  background-color: #fff;
+  border-radius: 12px;
 }
 
 .new-task {
-  font-size: 1.2em;
-  font-style: italic;
+  font-size: 1em;
+  padding: 0.75rem 1.1rem;
   border: none;
   outline: none;
-  width: 95%;
+  width: 100%;
+  border-radius: 12px;
 }
 
 .submit-task {
@@ -71,20 +83,28 @@ body {
 }
 
 .todo-list {
-  width: 100%;
+  width: 80%;
   height: auto;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  margin-top: 5%;
   list-style-type: none;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .todo-list li {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0.5rem;
-  box-sizing: border-box;
-  border-bottom: 1px solid #e9ecef;
+  padding: 1.5rem 0.5rem;
+  width: 100%;
+  margin-top: 0.9rem;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background-color: #fff;
 }
 
 .todo-list li div {
@@ -98,7 +118,7 @@ body {
   font-size: 1em;
   font-family: inherit;
   align-self: flex-start;
-  width: 29rem;
+  width: 90%;
 }
 
 .fa-check {
@@ -123,29 +143,68 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  font-size: 1rem;
   font-family: inherit;
   display: flex;
   align-items: baseline;
   justify-content: center;
 }
 
-i {
-  font-size: 17px;
-  color: #a5a58d;
+.fa-plus {
+  align-self: center;
+  color: rgb(62, 190, 72);
+}
+
+.fa-trash-can {
+  align-self: center;
+  font-size: 1rem;
+  color: rgb(214, 67, 67);
 }
 
 .completed {
   text-align: center;
-  width: 100%;
-  font-size: 1.4em;
+  width: fit-content;
+  margin: 3% auto;
+  font-size: 1.2em;
   border: none;
-  padding: 0.5rem 0;
-  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  transition: 0.2s;
 }
 
 .completed:hover {
-  background-color: #2e64a3;
+  background-color: #8989bb;
   color: white;
-  transition: 5ms 5ms;
+  box-shadow:
+    rgb(50 50 93 / 25%) 0 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0 3px 7px -3px;
+}
+
+@media screen and (max-width: 900px) {
+  .list-section {
+    width: 70%;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 2rem;
+    margin: 10% 0;
+  }
+
+  .list-section {
+    width: 85%;
+  }
+
+  .add-task {
+    width: 90%;
+  }
+
+  .todo-list li {
+    padding: 1.25rem 0.7rem;
+  }
+
+  .completed {
+    font-size: 1rem;
+  }
 }
